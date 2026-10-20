@@ -1,0 +1,16 @@
+{
+  "name": "tu-kham-pha-fee-payment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lab 3 - Fee Service va ngan hang gia lap",
+  "main": "fee-service.js",
+  "scripts": {
+    "fee": "node fee-service.js",
+    "bank": "node bank-service.js",
+    "test:scenario": "node scenario-test.js",
+    "test:all": "node lab-test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
